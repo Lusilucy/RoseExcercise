@@ -1,0 +1,39 @@
+c1: &c1
+  name : WuHuang
+  color : White and Black
+  age : 3
+  sex : famale
+
+c2: &c2
+  name : Kitty
+  color : pink
+  age : 5
+  sex : famale
+
+c3: &c3
+  name : 张三
+  color : 灰色
+  age : 7
+  sex : male
+
+default:
+  <<: *c3
+#分段符
+---
+
+d1: &d1
+  name : BaZHei
+  color : Brown
+  age : 5
+  sex : male
+
+d2: &d2
+  name : 李四
+  color : 原谅色
+  age : 333
+  sex : male
+
+default:
+  <<: *d2
+
+
