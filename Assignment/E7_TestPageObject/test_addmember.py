@@ -11,8 +11,15 @@ with open('member.yaml') as f:
 
 @pytest.mark.parametrize('name, id, Tel', member)
 class TestAddmember:
-    def test_addmember(self, name, id, Tel):
+    @pytest.mark.skip
+    def test_addmember_by_contacts(self, name, id, Tel):
         main = Main()
         add_member = main.goto_contacts().click_add_member().add_member(name, id, Tel)
+        list = add_member.list()
+        assert Tel in list
+
+    def test_addmember_by_main(self, name, id, Tel):
+        main = Main()
+        add_member = main.click_add_member().add_member(name, id, Tel)
         list = add_member.list()
         assert Tel in list
