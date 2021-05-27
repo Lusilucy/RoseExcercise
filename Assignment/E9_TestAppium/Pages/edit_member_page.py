@@ -20,8 +20,5 @@ class EditMember(Base):
         self.find_and_click(MobileBy.XPATH, "//*[@text='确定']")
         # 显示等待页面加载
         self.wait_contact_load()
-        # ❓❓❓等待通讯录刷新！调用refresh_contacts方法通讯录人多时过于牺牲性能，运行过慢
-        # ❓❓❓是否有更好方法？
-        # sleep(1)
         from Assignment.E9_TestAppium.Pages.contact_page import Contact
         return Contact(self.driver)
