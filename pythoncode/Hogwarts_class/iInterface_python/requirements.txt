@@ -1,6 +1,7 @@
-allure
-appium
+allure-pytest
+Appium-Python-Client
 pytest
+pytest-testconfig
 requests
 selenium
 urllib3
