@@ -1,5 +1,5 @@
 allure-pytest
-# Appium-Python-Client
+Appium-Python-Client
 pytest
 pytest-testconfig
 requests
