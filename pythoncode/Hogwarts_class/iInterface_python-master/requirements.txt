@@ -1,6 +1,0 @@
-allure
-appium
-pytest
-requests
-selenium
-urllib3
