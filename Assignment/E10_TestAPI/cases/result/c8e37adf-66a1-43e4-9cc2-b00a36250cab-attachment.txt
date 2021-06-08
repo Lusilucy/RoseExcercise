@@ -1,0 +1,6 @@
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/tag/create?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw', 'json': {'tagname': '全栈测试43895794570日符号化感觉i哦就发i家哦女佛山女i肉丝呢', 'tagid': '3'}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/tag/create?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw HTTP/1.1" 200 238
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 40058, 'errmsg': 'tagname exceed max utf8 words 32. Invalid input invalid Request Parameter, hint: [1623127037_161_0f01c257c987e88e67f5ce8e27522c72], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}

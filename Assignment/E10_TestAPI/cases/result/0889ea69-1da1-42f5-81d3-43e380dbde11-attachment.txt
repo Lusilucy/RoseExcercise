@@ -1,0 +1,6 @@
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/tag/create?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw', 'json': {'tagname': '全栈测试', 'tagid': '2'}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/tag/create?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw HTTP/1.1" 200 204
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 40071, 'errmsg': 'UserTag Name Already Exist, hint: [1623126493_161_f5e4c0287b8cd9e8c035e51ae18c5187], from ip: 36.128.192.98, more info at https://open.work.weixin.qq.com/devtool/query?e=40071'}

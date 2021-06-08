@@ -1,0 +1,1 @@
+{'errcode': 60001, 'errmsg': 'department invalid length, hint: [1623126489_161_1ca3a0a4d9fbfb6922a76fe9fa536775], from ip: 36.128.192.98, more info at https://open.work.weixin.qq.com/devtool/query?e=60001'}

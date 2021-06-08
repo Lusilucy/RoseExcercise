@@ -1,0 +1,226 @@
+{
+  "uid" : "76de5d7433f65915",
+  "name" : "上送正确部门信息，返回响应码0",
+  "fullName" : "test_department.TestDepartment#test_create_department_single",
+  "historyId" : "8576f710b506eba8ee0e2c10657c583e",
+  "time" : {
+    "start" : 1623127173814,
+    "stop" : 1623127174189,
+    "duration" : 375
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDepartment",
+    "time" : {
+      "start" : 1623127170216,
+      "stop" : 1623127171412,
+      "duration" : 1196
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取通讯录token",
+      "time" : {
+        "start" : 1623127170216,
+        "stop" : 1623127170217,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "实例化Department",
+      "time" : {
+        "start" : 1623127170217,
+        "stop" : 1623127170628,
+        "duration" : 411
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "清理测试环境",
+      "time" : {
+        "start" : 1623127170628,
+        "stop" : 1623127171412,
+        "duration" : 784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1623127170177,
+      "stop" : 1623127170216,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "创建部门",
+      "time" : {
+        "start" : 1623127173814,
+        "stop" : 1623127174189,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "断言响应码正确",
+      "time" : {
+        "start" : 1623127174189,
+        "stop" : 1623127174189,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2dcb5c2c72b9999c",
+      "name" : "log",
+      "source" : "2dcb5c2c72b9999c.txt",
+      "type" : "text/plain",
+      "size" : 1160
+    }, {
+      "uid" : "2fc99e643bbb2938",
+      "name" : "stdout",
+      "source" : "2fc99e643bbb2938.txt",
+      "type" : "text/plain",
+      "size" : 45
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDepartment::0",
+    "time" : {
+      "start" : 1623127174929,
+      "stop" : 1623127174929,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "【部门管理模块】测试案例"
+  }, {
+    "name" : "story",
+    "value" : "【创建部门功能】测试案例"
+  }, {
+    "name" : "suite",
+    "value" : "test_department"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDepartment"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Rose.local"
+  }, {
+    "name" : "thread",
+    "value" : "3527-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_department"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "create_data",
+    "value" : "{'name': '广州研发中心', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 2}"
+  }, {
+    "name" : "errcode",
+    "value" : "0"
+  }, {
+    "name" : "title",
+    "value" : "'上送正确部门信息，返回响应码0'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2dd497df6bf3dc89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127031680,
+        "stop" : 1623127032084,
+        "duration" : 404
+      }
+    }, {
+      "uid" : "90666a6a02bb9532",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623126487856,
+        "stop" : 1623126488230,
+        "duration" : 374
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76de5d7433f65915.json",
+  "parameterValues" : [ "{'name': '广州研发中心', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 2}", "0", "'上送正确部门信息，返回响应码0'" ]
+}

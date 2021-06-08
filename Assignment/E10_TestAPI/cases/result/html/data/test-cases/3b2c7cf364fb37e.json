@@ -1,0 +1,271 @@
+{
+  "uid" : "3b2c7cf364fb37e",
+  "name" : "业务场景：增-改-查，操作成功且列表更新正确",
+  "fullName" : "test_tag.TestTag#test_tag_flow",
+  "historyId" : "0601e85874fdd283cebff3f01a1badc2",
+  "time" : {
+    "start" : 1623127034352,
+    "stop" : 1623127036652,
+    "duration" : 2300
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestTag",
+    "time" : {
+      "start" : 1623127032835,
+      "stop" : 1623127034351,
+      "duration" : 1516
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取token",
+      "time" : {
+        "start" : 1623127032835,
+        "stop" : 1623127032837,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "实例化Tag",
+      "time" : {
+        "start" : 1623127032837,
+        "stop" : 1623127033235,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "清理测试环境",
+      "time" : {
+        "start" : 1623127033235,
+        "stop" : 1623127034351,
+        "duration" : 1116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1623127028037,
+      "stop" : 1623127028076,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "创建标签",
+      "time" : {
+        "start" : 1623127034352,
+        "stop" : 1623127034730,
+        "duration" : 378
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取标签列表并断言包含创建标签",
+      "time" : {
+        "start" : 1623127034730,
+        "stop" : 1623127035115,
+        "duration" : 385
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "更新标签",
+      "time" : {
+        "start" : 1623127035115,
+        "stop" : 1623127035479,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取标签列表并断言包含更新标签",
+      "time" : {
+        "start" : 1623127035479,
+        "stop" : 1623127035865,
+        "duration" : 386
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "删除标签",
+      "time" : {
+        "start" : 1623127035865,
+        "stop" : 1623127036268,
+        "duration" : 403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取标签列表并断言不包含删除标签ID",
+      "time" : {
+        "start" : 1623127036268,
+        "stop" : 1623127036651,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7e14cc2a07900409",
+      "name" : "log",
+      "source" : "7e14cc2a07900409.txt",
+      "type" : "text/plain",
+      "size" : 10907
+    }, {
+      "uid" : "c5a98894c85d3aa4",
+      "name" : "stdout",
+      "source" : "c5a98894c85d3aa4.txt",
+      "type" : "text/plain",
+      "size" : 164
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestTag::0",
+    "time" : {
+      "start" : 1623127037743,
+      "stop" : 1623127037743,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "业务场景测试案例"
+  }, {
+    "name" : "feature",
+    "value" : "【标签管理模块】测试案例"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Rose.local"
+  }, {
+    "name" : "thread",
+    "value" : "3444-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "create_data",
+    "value" : "{'tagname': 'UI测试', 'tagid': '1'}"
+  }, {
+    "name" : "delete_id",
+    "value" : "1"
+  }, {
+    "name" : "title",
+    "value" : "'业务场景：增-改-查，操作成功且列表更新正确'"
+  }, {
+    "name" : "update_data",
+    "value" : "{'tagid': '1', 'tagname': 'API测试'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b2c7cf364fb37e.json",
+  "parameterValues" : [ "{'tagname': 'UI测试', 'tagid': '1'}", "1", "'业务场景：增-改-查，操作成功且列表更新正确'", "{'tagid': '1', 'tagname': 'API测试'}" ]
+}

@@ -1,0 +1,218 @@
+{
+  "uid" : "75110930f96ebfa7",
+  "name" : "传入正确数据，返回码0",
+  "fullName" : "test_tag.TestTag#test_create_tag_single",
+  "historyId" : "7e4b77e8aa0d8b6b60eb9876b0c271c3",
+  "time" : {
+    "start" : 1623127036657,
+    "stop" : 1623127037027,
+    "duration" : 370
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestTag",
+    "time" : {
+      "start" : 1623127032835,
+      "stop" : 1623127034351,
+      "duration" : 1516
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取token",
+      "time" : {
+        "start" : 1623127032835,
+        "stop" : 1623127032837,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "实例化Tag",
+      "time" : {
+        "start" : 1623127032837,
+        "stop" : 1623127033235,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "清理测试环境",
+      "time" : {
+        "start" : 1623127033235,
+        "stop" : 1623127034351,
+        "duration" : 1116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1623127028037,
+      "stop" : 1623127028076,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "创建标签",
+      "time" : {
+        "start" : 1623127036657,
+        "stop" : 1623127037026,
+        "duration" : 369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "断言返回响应码与预期一致",
+      "time" : {
+        "start" : 1623127037026,
+        "stop" : 1623127037026,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fe988ea89eea411e",
+      "name" : "log",
+      "source" : "fe988ea89eea411e.txt",
+      "type" : "text/plain",
+      "size" : 1105
+    }, {
+      "uid" : "d8bf7a83fb6bf607",
+      "name" : "stdout",
+      "source" : "d8bf7a83fb6bf607.txt",
+      "type" : "text/plain",
+      "size" : 48
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestTag::0",
+    "time" : {
+      "start" : 1623127037743,
+      "stop" : 1623127037743,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "【创建标签功能】测试案例"
+  }, {
+    "name" : "feature",
+    "value" : "【标签管理模块】测试案例"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Rose.local"
+  }, {
+    "name" : "thread",
+    "value" : "3444-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "create_data",
+    "value" : "{'tagname': '全栈测试', 'tagid': '1'}"
+  }, {
+    "name" : "errcode",
+    "value" : "0"
+  }, {
+    "name" : "title",
+    "value" : "'传入正确数据，返回码0'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4ac3b00b8c55e820",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623126492549,
+        "stop" : 1623126492926,
+        "duration" : 377
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75110930f96ebfa7.json",
+  "parameterValues" : [ "{'tagname': '全栈测试', 'tagid': '1'}", "0", "'传入正确数据，返回码0'" ]
+}

@@ -1,0 +1,156 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_tag",
+    "children" : [ {
+      "name" : "传入正确数据，返回码0",
+      "uid" : "75110930f96ebfa7",
+      "parentUid" : "c917ff1382945fdb5fe7bb0de477a868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127036657,
+        "stop" : 1623127037027,
+        "duration" : 370
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'tagname': '全栈测试', 'tagid': '1'}", "0", "'传入正确数据，返回码0'" ]
+    }, {
+      "name" : "传入重复tagname,返回码40071",
+      "uid" : "1e01fc72b416625f",
+      "parentUid" : "c917ff1382945fdb5fe7bb0de477a868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127037031,
+        "stop" : 1623127037370,
+        "duration" : 339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'tagname': '全栈测试', 'tagid': '2'}", "40071", "'传入重复tagname,返回码40071'" ]
+    }, {
+      "name" : "传入不合法tagname，返回码40058",
+      "uid" : "e953dd1a743a9dd5",
+      "parentUid" : "c917ff1382945fdb5fe7bb0de477a868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127037374,
+        "stop" : 1623127037741,
+        "duration" : 367
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'tagname': '全栈测试43895794570日符号化感觉i哦就发i家哦女佛山女i肉丝呢', 'tagid': '3'}", "40058", "'传入不合法tagname，返回码40058'" ]
+    }, {
+      "name" : "业务场景：增-改-查，操作成功且列表更新正确",
+      "uid" : "6bfef8d06ab57a73",
+      "parentUid" : "c917ff1382945fdb5fe7bb0de477a868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127176479,
+        "stop" : 1623127179634,
+        "duration" : 3155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'tagname': 'UI测试', 'tagid': '1'}", "1", "'业务场景：增-改-查，操作成功且列表更新正确'", "{'tagid': '1', 'tagname': 'API测试'}" ]
+    }, {
+      "name" : "上送正确tag数据，返回码0",
+      "uid" : "d3355fc586e1f45b",
+      "parentUid" : "c917ff1382945fdb5fe7bb0de477a868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127179639,
+        "stop" : 1623127180034,
+        "duration" : 395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'tagname': '全栈测试', 'tagid': '1'}", "0", "'上送正确tag数据，返回码0'" ]
+    }, {
+      "name" : "上送重复tagname,返回码40071",
+      "uid" : "2e7f86db2d651e57",
+      "parentUid" : "c917ff1382945fdb5fe7bb0de477a868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127180038,
+        "stop" : 1623127180387,
+        "duration" : 349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'tagname': '全栈测试', 'tagid': '2'}", "40071", "'上送重复tagname,返回码40071'" ]
+    }, {
+      "name" : "上送不合法tagname，返回码40058",
+      "uid" : "9152a3d5a67a276d",
+      "parentUid" : "c917ff1382945fdb5fe7bb0de477a868",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127180392,
+        "stop" : 1623127180736,
+        "duration" : 344
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'tagname': '全栈测试43895794570日符号化感觉i哦就发i家哦女佛山女i肉丝呢', 'tagid': '3'}", "40058", "'上送不合法tagname，返回码40058'" ]
+    } ],
+    "uid" : "c917ff1382945fdb5fe7bb0de477a868"
+  }, {
+    "name" : "test_department",
+    "children" : [ {
+      "name" : "新增-修改-删除部门信息，返回成功，通讯录更新正确",
+      "uid" : "d08e02d94670ed48",
+      "parentUid" : "f0ad87f490b37a2aba9d93e7bd70ceda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127171413,
+        "stop" : 1623127173809,
+        "duration" : 2396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '广州研发中心', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 2}", "2", "'新增-修改-删除部门信息，返回成功，通讯录更新正确'", "{'id': 2, 'name': '上海研发中心', 'name_en': 'RDSH', 'parentid': 1, 'order': 1}" ]
+    }, {
+      "name" : "上送正确部门信息，返回响应码0",
+      "uid" : "76de5d7433f65915",
+      "parentUid" : "f0ad87f490b37a2aba9d93e7bd70ceda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127173814,
+        "stop" : 1623127174189,
+        "duration" : 375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '广州研发中心', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 2}", "0", "'上送正确部门信息，返回响应码0'" ]
+    }, {
+      "name" : "上送重复部门名称，返回响应码60008",
+      "uid" : "cf9ef602871aef06",
+      "parentUid" : "f0ad87f490b37a2aba9d93e7bd70ceda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127174194,
+        "stop" : 1623127174582,
+        "duration" : 388
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '广州研发中心', 'name_en': 'RDGZ', 'parentid': 1, 'order': 2, 'id': 3}", "60008", "'上送重复部门名称，返回响应码60008'" ]
+    }, {
+      "name" : "上送超长部门名称，返回响应码60001",
+      "uid" : "a6506d6b8496af2d",
+      "parentUid" : "f0ad87f490b37a2aba9d93e7bd70ceda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127174587,
+        "stop" : 1623127174927,
+        "duration" : 340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'name': '上海研发中心32u4u35848854u584u43y594378', 'name_en': 'RDSH', 'parentid': 1, 'order': 3, 'id': 4}", "60001", "'上送超长部门名称，返回响应码60001'" ]
+    } ],
+    "uid" : "f0ad87f490b37a2aba9d93e7bd70ceda"
+  } ]
+}

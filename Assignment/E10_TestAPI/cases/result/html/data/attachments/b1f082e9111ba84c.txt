@@ -1,0 +1,96 @@
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.address`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.address` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+[35mDEBUG   [0m faker.factory:factory.py:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.color`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.color` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.company`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.company` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.currency` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.geo` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.internet` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.job`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.job` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.misc` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.person`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.person` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=ww52221eaa06300fdb&corpsecret=eeitMK8AjTs1YVP4S1mWLSPyu8BFpkjJ85S2WkdnaX8'}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww52221eaa06300fdb&corpsecret=eeitMK8AjTs1YVP4S1mWLSPyu8BFpkjJ85S2WkdnaX8 HTTP/1.1" 200 277
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 0, 'errmsg': 'ok', 'access_token': 'Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw', 'expires_in': 7200}
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw'}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw HTTP/1.1" 200 173
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Test', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '广州研发中心', 'parentid': 1, 'order': 1, 'name_en': 'RDGZ'}]}
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw&id=2'}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw&id=2 HTTP/1.1" 200 32
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 0, 'errmsg': 'deleted'}
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw', 'json': {'name': '广州研发中心', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 2}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw HTTP/1.1" 200 39
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 0, 'errmsg': 'created', 'id': 2}
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw'}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw HTTP/1.1" 200 173
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Test', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '广州研发中心', 'parentid': 1, 'order': 1, 'name_en': 'RDGZ'}]}
+[32mINFO    [0m root:baseapi.py:18 ['Test', '广州研发中心']
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/update?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw', 'json': {'id': 2, 'name': '上海研发中心', 'name_en': 'RDSH', 'parentid': 1, 'order': 1}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/update?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw HTTP/1.1" 200 32
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 0, 'errmsg': 'updated'}
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw'}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw HTTP/1.1" 200 173
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Test', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '上海研发中心', 'parentid': 1, 'order': 1, 'name_en': 'RDSH'}]}
+[32mINFO    [0m root:baseapi.py:18 ['Test', '上海研发中心']
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw&id=2'}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw&id=2 HTTP/1.1" 200 32
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 0, 'errmsg': 'deleted'}
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'get', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw'}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw HTTP/1.1" 200 96
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Test', 'parentid': 0, 'order': 100000000}]}
+[32mINFO    [0m root:baseapi.py:18 [1]

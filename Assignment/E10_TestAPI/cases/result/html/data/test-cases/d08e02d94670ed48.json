@@ -1,0 +1,289 @@
+{
+  "uid" : "d08e02d94670ed48",
+  "name" : "新增-修改-删除部门信息，返回成功，通讯录更新正确",
+  "fullName" : "test_department.TestDepartment#test_department_flow",
+  "historyId" : "516f17d164b83ec68d7c0bb631af0e66",
+  "time" : {
+    "start" : 1623127171413,
+    "stop" : 1623127173809,
+    "duration" : 2396
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDepartment",
+    "time" : {
+      "start" : 1623127170216,
+      "stop" : 1623127171412,
+      "duration" : 1196
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取通讯录token",
+      "time" : {
+        "start" : 1623127170216,
+        "stop" : 1623127170217,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "实例化Department",
+      "time" : {
+        "start" : 1623127170217,
+        "stop" : 1623127170628,
+        "duration" : 411
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "清理测试环境",
+      "time" : {
+        "start" : 1623127170628,
+        "stop" : 1623127171412,
+        "duration" : 784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1623127170177,
+      "stop" : 1623127170216,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "创建部门",
+      "time" : {
+        "start" : 1623127171414,
+        "stop" : 1623127171801,
+        "duration" : 387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取部门列表断言创建部门成功",
+      "time" : {
+        "start" : 1623127171801,
+        "stop" : 1623127172179,
+        "duration" : 378
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "更新部门",
+      "time" : {
+        "start" : 1623127172179,
+        "stop" : 1623127172609,
+        "duration" : 430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取部门列表断言更新部门成功",
+      "time" : {
+        "start" : 1623127172609,
+        "stop" : 1623127173029,
+        "duration" : 420
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "删除部门",
+      "time" : {
+        "start" : 1623127173030,
+        "stop" : 1623127173431,
+        "duration" : 401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "获取部门列表断言删除部门成功",
+      "time" : {
+        "start" : 1623127173431,
+        "stop" : 1623127173809,
+        "duration" : 378
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "16b80e6d8d7c5957",
+      "name" : "log",
+      "source" : "16b80e6d8d7c5957.txt",
+      "type" : "text/plain",
+      "size" : 15103
+    }, {
+      "uid" : "5c3cc92e98da2944",
+      "name" : "stdout",
+      "source" : "5c3cc92e98da2944.txt",
+      "type" : "text/plain",
+      "size" : 513
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestDepartment::0",
+    "time" : {
+      "start" : 1623127174929,
+      "stop" : 1623127174929,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "业务场景测试案例"
+  }, {
+    "name" : "feature",
+    "value" : "【部门管理模块】测试案例"
+  }, {
+    "name" : "suite",
+    "value" : "test_department"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDepartment"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Rose.local"
+  }, {
+    "name" : "thread",
+    "value" : "3527-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_department"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "create_data",
+    "value" : "{'name': '广州研发中心', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 2}"
+  }, {
+    "name" : "department_id",
+    "value" : "2"
+  }, {
+    "name" : "title",
+    "value" : "'新增-修改-删除部门信息，返回成功，通讯录更新正确'"
+  }, {
+    "name" : "update_data",
+    "value" : "{'id': 2, 'name': '上海研发中心', 'name_en': 'RDSH', 'parentid': 1, 'order': 1}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "385c51caa7347284",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623127029285,
+        "stop" : 1623127031675,
+        "duration" : 2390
+      }
+    }, {
+      "uid" : "73df07a274e6689c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623126485689,
+        "stop" : 1623126487850,
+        "duration" : 2161
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d08e02d94670ed48.json",
+  "parameterValues" : [ "{'name': '广州研发中心', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 2}", "2", "'新增-修改-删除部门信息，返回成功，通讯录更新正确'", "{'id': 2, 'name': '上海研发中心', 'name_en': 'RDSH', 'parentid': 1, 'order': 1}" ]
+}

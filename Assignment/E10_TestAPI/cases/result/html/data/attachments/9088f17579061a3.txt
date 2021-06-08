@@ -1,0 +1,6 @@
+[32mINFO    [0m root:baseapi.py:18 ---------requests_datas----------
+[32mINFO    [0m root:baseapi.py:18 {'method': 'post', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw', 'json': {'name': '广州研发中心', 'name_en': 'RDGZ', 'parentid': 1, 'order': 2, 'id': 3}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=Xb8j9WOzd3CMgRSXFC2KSjDzo7X1slUMtvWlJ6opgemLKJtDAtoh1fudVAAKucCWVJk1aJ1EcNRtBPR8XvFLw8aUcp3RbWX-Dj6BpWgfAmJS7Mj_JNKpYB8G8kMl-D7JKVbo5SeWMc-RfHFfvddfHG-eqIVqvFRjl-QLtj9pZqi0ALkQdIsjxYnFvrq42WFo12QgnLlPtDoYDMhO-PHoxw HTTP/1.1" 200 196
+[32mINFO    [0m root:baseapi.py:18 ----------response_datas--------
+[32mINFO    [0m root:baseapi.py:18 {'errcode': 60008, 'errmsg': 'department existed, hint: [1623127032_161_22dc256312c54ddffcd4220122b4e831], from ip: 36.128.192.98, more info at https://open.work.weixin.qq.com/devtool/query?e=60008'}
