@@ -9,12 +9,11 @@ from time import sleep
 from selenium.common.exceptions import StaleElementReferenceException, ElementNotInteractableException
 from selenium.webdriver.common.by import By
 
-from PageObiect.base import Base
+from Assignment.E7_TestPageObject.PageObiect.base import Base
 
 
 class Contacts(Base):
     def click_add_member(self):
-        from PageObiect.add_member_page import Add_Member
         ele = (By.CSS_SELECTOR, '.ww_operationBar>.js_add_member')
         self.driver.implicitly_wait(0)
         a = 0
@@ -30,6 +29,7 @@ class Contacts(Base):
                 if ele_num > 0:
                     break
         self.driver.implicitly_wait(10)
+        from Assignment.E7_TestPageObject.PageObiect.add_member_page import Add_Member
         return Add_Member(self.driver)
 
     def list(self):

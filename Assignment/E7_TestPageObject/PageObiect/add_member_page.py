@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-from PageObiect.contacts_page import Contacts
-from PageObiect.base import Base
+from Assignment.E7_TestPageObject.PageObiect.base import Base
+from Assignment.E7_TestPageObject.PageObiect.contacts_page import Contacts
 
 
 class Add_Member(Base):
